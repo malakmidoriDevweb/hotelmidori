@@ -1,0 +1,709 @@
+/*==================================================
+JACUZZI HERO
+==================================================*/
+
+.jacuzzi-hero{
+
+    position:relative;
+
+    width:100%;
+
+    height:100vh;
+
+    min-height:780px;
+
+    overflow:hidden;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.jacuzzi-hero img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+/*===== OVERLAY =====*/
+
+.jacuzzi-hero .hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.32);
+
+}
+
+
+/*===== CONTENT =====*/
+
+.jacuzzi-hero .hero-content{
+
+    position:absolute;
+
+    left:10%;
+
+    bottom:14%;
+
+    max-width:700px;
+
+    color:#fff;
+
+    z-index:2;
+
+}
+
+.jacuzzi-hero span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.85rem;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+.jacuzzi-hero h1{
+
+    font-size:5rem;
+
+    font-weight:300;
+
+    line-height:1.05;
+
+    margin-bottom:30px;
+
+}
+
+.jacuzzi-hero p{
+
+    max-width:600px;
+
+    line-height:1.9;
+
+    margin-bottom:45px;
+
+}
+
+.jacuzzi-hero a{
+
+    display:inline-block;
+
+    padding:16px 38px;
+
+    border:1px solid #fff;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    letter-spacing:2px;
+
+    transition:.35s;
+
+}
+
+.jacuzzi-hero a:hover{
+
+    background:#fff;
+
+    color:#222;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .jacuzzi-hero h1{
+
+        font-size:3.8rem;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .jacuzzi-hero{
+
+        min-height:650px;
+
+    }
+
+    .jacuzzi-hero .hero-content{
+
+        left:8%;
+
+        right:8%;
+
+        bottom:10%;
+
+    }
+
+    .jacuzzi-hero h1{
+
+        font-size:3rem;
+
+    }
+
+}
+
+/*==================================================
+PRIVATE EXPERIENCE
+==================================================*/
+
+.jacuzzi-intro{
+
+    max-width:1450px;
+
+    margin:160px auto;
+
+    padding:0 40px;
+
+    display:grid;
+
+    grid-template-columns:1.1fr 1fr;
+
+    gap:90px;
+
+    align-items:center;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.intro-image img{
+
+    width:100%;
+
+    height:650px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+/*===== CONTENT =====*/
+
+.intro-content span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.intro-content h2{
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:35px;
+
+}
+
+.intro-content p{
+
+    font-size:1.05rem;
+
+    line-height:2;
+
+    color:#666;
+
+    margin-bottom:40px;
+
+}
+
+.intro-content a{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    border-bottom:1px solid #222;
+
+    color:#222;
+
+    padding-bottom:5px;
+
+    transition:.3s;
+
+}
+
+.intro-content a:hover{
+
+    padding-left:8px;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .jacuzzi-intro{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .jacuzzi-intro{
+
+        padding:0 25px;
+
+    }
+
+    .intro-image img{
+
+        height:420px;
+
+    }
+
+    .intro-content h2{
+
+        font-size:2.7rem;
+
+    }
+
+}
+
+/*==================================================
+FEATURES
+==================================================*/
+
+.jacuzzi-features{
+
+    max-width:1450px;
+
+    margin:180px auto;
+
+    padding:0 40px;
+
+    text-align:center;
+
+}
+
+
+/*===== HEADER =====*/
+
+.jacuzzi-features span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.jacuzzi-features h2{
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:70px;
+
+}
+
+
+/*===== GRID =====*/
+
+.features-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}
+
+
+/*===== CARD =====*/
+
+.features-grid div{
+
+    padding:50px 35px;
+
+    background:#f7f5f1;
+
+    border:1px solid rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.features-grid div:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.features-grid h3{
+
+    font-size:2rem;
+
+    font-weight:300;
+
+    margin-bottom:20px;
+
+}
+
+.features-grid p{
+
+    line-height:1.9;
+
+    color:#666;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .features-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .jacuzzi-features{
+
+        padding:0 25px;
+
+    }
+
+    .jacuzzi-features h2{
+
+        font-size:2.6rem;
+
+    }
+
+}
+
+/*==================================================
+GALLERY
+==================================================*/
+
+.jacuzzi-gallery{
+
+    max-width:1500px;
+
+    margin:180px auto;
+
+    padding:0 40px;
+
+}
+
+
+/*===== HEADER =====*/
+
+.gallery-header{
+
+    text-align:center;
+
+    max-width:760px;
+
+    margin:0 auto 70px;
+
+}
+
+.gallery-header span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.gallery-header h2{
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    margin-bottom:30px;
+
+}
+
+.gallery-header p{
+
+    line-height:2;
+
+    color:#666;
+
+}
+
+
+/*===== GRID =====*/
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.gallery-grid img{
+
+    width:100%;
+
+    height:500px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.45s;
+
+}
+
+.gallery-grid img:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .gallery-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .jacuzzi-gallery{
+
+        padding:0 25px;
+
+    }
+
+    .gallery-header h2{
+
+        font-size:2.6rem;
+
+    }
+
+    .gallery-grid img{
+
+        height:380px;
+
+    }
+
+}
+/*==================================================
+BOOK YOUR STAY
+==================================================*/
+
+.jacuzzi-cta{
+
+    position:relative;
+
+    width:100%;
+
+    height:700px;
+
+    margin-top:220px;
+
+    overflow:hidden;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.jacuzzi-cta img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+/*===== OVERLAY =====*/
+
+.jacuzzi-cta::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.32);
+
+}
+
+
+/*===== CONTENT =====*/
+
+.jacuzzi-cta .cta-content{
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    width:90%;
+
+    max-width:850px;
+
+    text-align:center;
+
+    color:#fff;
+
+    z-index:2;
+
+}
+
+.jacuzzi-cta span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.85rem;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+.jacuzzi-cta h2{
+
+    font-size:4.2rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:40px;
+
+}
+
+.jacuzzi-cta a{
+
+    display:inline-block;
+
+    padding:18px 42px;
+
+    border:1px solid #fff;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    transition:.35s;
+
+}
+
+.jacuzzi-cta a:hover{
+
+    background:#fff;
+
+    color:#222;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:768px){
+
+    .jacuzzi-cta{
+
+        height:520px;
+
+    }
+
+    .jacuzzi-cta h2{
+
+        font-size:2.8rem;
+
+    }
+
+}

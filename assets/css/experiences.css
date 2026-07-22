@@ -1,0 +1,730 @@
+/*==================================================
+EXPERIENCES HERO
+==================================================*/
+
+.experiences-hero{
+
+    position:relative;
+
+    width:100%;
+
+    height:100vh;
+
+    min-height:780px;
+
+    overflow:hidden;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.experiences-hero img{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+
+}
+
+
+/*===== OVERLAY =====*/
+
+.experiences-hero .hero-overlay{
+
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.32);
+
+}
+
+
+/*===== CONTENT =====*/
+
+.experiences-hero .hero-content{
+
+    position:absolute;
+
+    left:10%;
+    bottom:14%;
+
+    max-width:700px;
+
+    color:#fff;
+
+    z-index:2;
+
+}
+
+.experiences-hero span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.85rem;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+.experiences-hero h1{
+
+    font-size:5rem;
+
+    font-weight:300;
+
+    line-height:1.05;
+
+    margin-bottom:30px;
+
+}
+
+.experiences-hero p{
+
+    max-width:580px;
+
+    line-height:1.9;
+
+    margin-bottom:45px;
+
+}
+
+.experiences-hero a{
+
+    display:inline-block;
+
+    padding:16px 38px;
+
+    border:1px solid #fff;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    letter-spacing:2px;
+
+    transition:.35s;
+
+}
+
+.experiences-hero a:hover{
+
+    background:#fff;
+
+    color:#222;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .experiences-hero h1{
+
+        font-size:3.8rem;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .experiences-hero{
+
+        min-height:650px;
+
+    }
+
+    .experiences-hero .hero-content{
+
+        left:8%;
+        right:8%;
+        bottom:10%;
+
+    }
+
+    .experiences-hero h1{
+
+        font-size:3rem;
+
+    }
+
+}
+
+/*==================================================
+INTRODUCTION
+==================================================*/
+
+.experiences-intro{
+
+    max-width:1450px;
+
+    margin:160px auto;
+
+    padding:0 40px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1.1fr;
+
+    gap:90px;
+
+    align-items:center;
+
+}
+
+
+/*===== TEXT =====*/
+
+.intro-text span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.intro-text h2{
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:35px;
+
+}
+
+.intro-text p{
+
+    font-size:1.05rem;
+
+    line-height:2;
+
+    color:#666;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.intro-image img{
+
+    width:100%;
+
+    height:650px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .experiences-intro{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .experiences-intro{
+
+        padding:0 25px;
+
+    }
+
+    .intro-image img{
+
+        height:420px;
+
+    }
+
+    .intro-text h2{
+
+        font-size:2.7rem;
+
+    }
+
+}
+
+/*==================================================
+FEATURED EXPERIENCES
+==================================================*/
+
+.featured-experiences{
+
+    max-width:1500px;
+
+    margin:200px auto;
+
+    padding:0 40px;
+
+}
+
+
+/*===== EXPERIENCE =====*/
+
+.experience{
+
+    display:grid;
+
+    grid-template-columns:56% 44%;
+
+    gap:90px;
+
+    align-items:center;
+
+    margin-bottom:170px;
+
+}
+
+.experience.reverse{
+
+    grid-template-columns:44% 56%;
+
+}
+
+.experience.reverse .experience-image{
+
+    order:2;
+
+}
+
+.experience.reverse .experience-content{
+
+    order:1;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.experience-image{
+
+    overflow:hidden;
+
+}
+
+.experience-image img{
+
+    width:100%;
+
+    height:650px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.5s;
+
+}
+
+.experience:hover img{
+
+    transform:scale(1.03);
+
+}
+
+
+/*===== CONTENT =====*/
+
+.experience-content{
+
+    max-width:520px;
+
+}
+
+.experience-content span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.experience-content h3{
+
+    font-size:3rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:28px;
+
+}
+
+.experience-content p{
+
+    font-size:1.05rem;
+
+    line-height:2;
+
+    color:#666;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .experience,
+    .experience.reverse{
+
+        grid-template-columns:1fr;
+
+        gap:45px;
+
+        margin-bottom:120px;
+
+    }
+
+    .experience.reverse .experience-image,
+    .experience.reverse .experience-content{
+
+        order:initial;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .featured-experiences{
+
+        padding:0 25px;
+
+    }
+
+    .experience-image img{
+
+        height:420px;
+
+    }
+
+    .experience-content h3{
+
+        font-size:2.4rem;
+
+    }
+
+}
+
+/*==================================================
+MORE EXPERIENCES
+==================================================*/
+
+.more-experiences{
+
+    max-width:1450px;
+
+    margin:180px auto;
+
+    padding:0 40px;
+
+    text-align:center;
+
+}
+
+
+/*===== HEADER =====*/
+
+.more-experiences span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.more-experiences h2{
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:70px;
+
+}
+
+
+/*===== GRID =====*/
+
+.experience-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+/*===== CARD =====*/
+
+.experience-grid div{
+
+    padding:45px 30px;
+
+    background:#f7f5f1;
+
+    border:1px solid rgba(0,0,0,.08);
+
+    font-size:1.2rem;
+
+    font-weight:400;
+
+    transition:.35s;
+
+    cursor:default;
+
+}
+
+.experience-grid div:hover{
+
+    transform:translateY(-8px);
+
+    background:#ece8dd;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .experience-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .more-experiences{
+
+        padding:0 25px;
+
+    }
+
+    .more-experiences h2{
+
+        font-size:2.6rem;
+
+    }
+
+    .experience-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/*==================================================
+BOOK YOUR STAY
+==================================================*/
+
+.experiences-cta{
+
+    position:relative;
+
+    width:100%;
+
+    height:700px;
+
+    margin-top:220px;
+
+    overflow:hidden;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.experiences-cta img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+/*===== OVERLAY =====*/
+
+.experiences-cta::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.32);
+
+}
+
+
+/*===== CONTENT =====*/
+
+.experiences-cta .cta-content{
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    width:90%;
+
+    max-width:900px;
+
+    text-align:center;
+
+    color:#fff;
+
+    z-index:2;
+
+}
+
+.experiences-cta span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.85rem;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+.experiences-cta h2{
+
+    font-size:4.3rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:40px;
+
+}
+
+.experiences-cta a{
+
+    display:inline-block;
+
+    padding:18px 42px;
+
+    border:1px solid #fff;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    transition:.35s;
+
+}
+
+.experiences-cta a:hover{
+
+    background:#fff;
+
+    color:#222;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .experiences-cta h2{
+
+        font-size:3.5rem;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .experiences-cta{
+
+        height:520px;
+
+    }
+
+    .experiences-cta h2{
+
+        font-size:2.7rem;
+
+    }
+
+    .experiences-cta .cta-content{
+
+        width:92%;
+
+    }
+
+}

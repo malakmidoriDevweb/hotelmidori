@@ -1,0 +1,731 @@
+/*==================================================
+CONTACT HERO
+==================================================*/
+
+.contact-hero{
+
+    position:relative;
+
+    width:100%;
+
+    height:100vh;
+
+    min-height:780px;
+
+    overflow:hidden;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.contact-hero img{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+
+}
+
+
+/*===== OVERLAY =====*/
+
+.contact-hero .hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.32);
+
+}
+
+
+/*===== CONTENT =====*/
+
+.contact-hero .hero-content{
+
+    position:absolute;
+
+    left:10%;
+    bottom:14%;
+
+    max-width:700px;
+
+    color:#fff;
+
+    z-index:2;
+
+}
+
+.contact-hero span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.85rem;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+.contact-hero h1{
+
+    font-size:5rem;
+
+    font-weight:300;
+
+    line-height:1.05;
+
+    margin-bottom:30px;
+
+}
+
+.contact-hero p{
+
+    max-width:580px;
+
+    line-height:1.9;
+
+    margin-bottom:45px;
+
+}
+
+
+/*===== BUTTON =====*/
+
+.contact-hero .hero-btn{
+
+    display:inline-block;
+
+}
+
+
+/*===== SCROLL =====*/
+
+.contact-hero .hero-scroll{
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:40px;
+
+    transform:translateX(-50%);
+
+    z-index:5;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .contact-hero h1{
+
+        font-size:3.8rem;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .contact-hero{
+
+        min-height:650px;
+
+    }
+
+    .contact-hero .hero-content{
+
+        left:8%;
+        right:8%;
+        bottom:12%;
+
+    }
+
+    .contact-hero h1{
+
+        font-size:3rem;
+
+    }
+
+}
+
+/*==================================================
+CONTACT INFORMATION
+==================================================*/
+
+.contact-info{
+
+    max-width:1500px;
+
+    margin:170px auto;
+
+    padding:0 40px;
+
+    display:grid;
+
+    grid-template-columns:42% 58%;
+
+    gap:80px;
+
+    align-items:stretch;
+
+}
+
+
+/*===== DETAILS =====*/
+
+.contact-details{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.contact-details span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.contact-details h2{
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    margin-bottom:55px;
+
+    line-height:1.15;
+
+}
+
+.contact-item{
+
+    margin-bottom:38px;
+
+}
+
+.contact-item h3{
+
+    font-size:1.35rem;
+
+    font-weight:400;
+
+    margin-bottom:12px;
+
+}
+
+.contact-item p{
+
+    line-height:2;
+
+    color:#666;
+
+}
+
+
+/*===== MAP =====*/
+
+.contact-map{
+
+    min-height:650px;
+
+}
+
+.contact-map iframe{
+
+    width:100%;
+
+    height:100%;
+
+    border:none;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .contact-info{
+
+        grid-template-columns:1fr;
+
+        gap:60px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .contact-info{
+
+        padding:0 25px;
+
+    }
+
+    .contact-details h2{
+
+        font-size:2.7rem;
+
+    }
+
+    .contact-map{
+
+        min-height:420px;
+
+    }
+
+}
+
+
+/*==================================================
+CONTACT OPTIONS
+==================================================*/
+
+.contact-options{
+
+    max-width:1450px;
+
+    margin:180px auto;
+
+    padding:0 40px;
+
+    text-align:center;
+
+}
+
+
+/*===== HEADER =====*/
+
+.contact-options span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.contact-options h2{
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:70px;
+
+}
+
+
+/*===== GRID =====*/
+
+.options-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}
+
+
+/*===== CARD =====*/
+
+.options-grid article{
+
+    padding:55px 40px;
+
+    background:#f7f5f1;
+
+    border:1px solid rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.options-grid article:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.08);
+
+}
+
+.options-grid h3{
+
+    font-size:2rem;
+
+    font-weight:300;
+
+    margin-bottom:22px;
+
+}
+
+.options-grid p{
+
+    color:#666;
+
+    line-height:1.9;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .options-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .contact-options{
+
+        padding:0 25px;
+
+    }
+
+    .contact-options h2{
+
+        font-size:2.6rem;
+
+    }
+
+}
+
+/*==================================================
+FAQ
+==================================================*/
+
+.faq{
+
+    max-width:1100px;
+
+    margin:180px auto;
+
+    padding:0 40px;
+
+}
+
+
+/*===== HEADER =====*/
+
+.faq span{
+
+    display:block;
+
+    text-align:center;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.faq h2{
+
+    text-align:center;
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:70px;
+
+}
+
+
+/*===== FAQ LIST =====*/
+
+.faq-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+
+/*===== ITEM =====*/
+
+.faq-list details{
+
+    border:1px solid rgba(0,0,0,.10);
+
+    background:#fff;
+
+    padding:26px 32px;
+
+    transition:.3s;
+
+}
+
+.faq-list details:hover{
+
+    border-color:#cfc7b6;
+
+}
+
+.faq-list summary{
+
+    cursor:pointer;
+
+    list-style:none;
+
+    font-size:1.25rem;
+
+    font-weight:400;
+
+}
+
+.faq-list summary::-webkit-details-marker{
+
+    display:none;
+
+}
+
+.faq-list p{
+
+    margin-top:22px;
+
+    color:#666;
+
+    line-height:1.9;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:768px){
+
+    .faq{
+
+        padding:0 25px;
+
+    }
+
+    .faq h2{
+
+        font-size:2.6rem;
+
+    }
+
+    .faq-list details{
+
+        padding:22px;
+
+    }
+
+}
+
+/*==================================================
+BOOK YOUR STAY
+==================================================*/
+
+.contact-cta{
+
+    position:relative;
+
+    width:100%;
+
+    height:700px;
+
+    margin-top:220px;
+
+    overflow:hidden;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.contact-cta img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+/*===== OVERLAY =====*/
+
+.contact-cta::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.32);
+
+}
+
+
+/*===== CONTENT =====*/
+
+.contact-cta .cta-content{
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    width:90%;
+
+    max-width:900px;
+
+    text-align:center;
+
+    color:#fff;
+
+    z-index:2;
+
+}
+
+.contact-cta span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.85rem;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+.contact-cta h2{
+
+    font-size:4.3rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:40px;
+
+}
+
+.contact-cta a{
+
+    display:inline-block;
+
+    padding:18px 42px;
+
+    border:1px solid #fff;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    transition:.35s;
+
+}
+
+.contact-cta a:hover{
+
+    background:#fff;
+
+    color:#222;
+
+}
+
+
+/*===== RESPONSIVE =====*/
+
+@media(max-width:992px){
+
+    .contact-cta h2{
+
+        font-size:3.5rem;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .contact-cta{
+
+        height:520px;
+
+    }
+
+    .contact-cta .cta-content{
+
+        width:92%;
+
+    }
+
+    .contact-cta h2{
+
+        font-size:2.7rem;
+
+    }
+
+}

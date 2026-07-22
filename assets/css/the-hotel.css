@@ -1,0 +1,1236 @@
+/*==================================================
+THE HOTEL
+HERO
+==================================================*/
+
+.hotel-hero{
+
+    position:relative;
+
+    width:100%;
+
+    height:100vh;
+
+    min-height:780px;
+
+    overflow:hidden;
+
+}
+
+.hotel-hero video{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+.hotel-hero .hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.30);
+
+}
+
+.hotel-hero .hero-content{
+
+    position:absolute;
+
+    left:10%;
+
+    bottom:14%;
+
+    max-width:720px;
+
+    color:#fff;
+
+    z-index:5;
+
+}
+
+.hotel-hero span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    letter-spacing:3px;
+
+    font-size:.85rem;
+
+    text-transform:uppercase;
+
+}
+
+.hotel-hero h1{
+
+    font-size:5rem;
+
+    font-weight:300;
+
+    line-height:1.05;
+
+    margin-bottom:30px;
+
+}
+
+.hotel-hero p{
+
+    max-width:600px;
+
+    line-height:1.9;
+
+    font-size:1.05rem;
+
+    margin-bottom:45px;
+
+}
+
+.hotel-hero a{
+
+    display:inline-block;
+
+    padding:16px 38px;
+
+    border:1px solid #fff;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    transition:.35s;
+
+}
+
+.hotel-hero a:hover{
+
+    background:#fff;
+
+    color:#222;
+
+}
+
+
+
+/*==================================================
+INTRODUCTION
+==================================================*/
+
+.hotel-intro{
+
+    max-width:1450px;
+
+    margin:150px auto;
+
+    padding:0 40px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,minmax(0,1fr));
+
+    gap:90px;
+
+    align-items:center;
+
+}
+
+.intro-text span{
+
+    display:block;
+
+    margin-bottom:15px;
+
+    letter-spacing:2px;
+
+    font-size:.8rem;
+
+    text-transform:uppercase;
+
+    color:#666;
+
+}
+
+.intro-text h2{
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:35px;
+
+}
+
+.intro-text p{
+
+    line-height:2;
+
+    color:#666;
+
+    font-size:1.05rem;
+
+}
+
+.intro-image img{
+
+    width:100%;
+
+    height:650px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+
+
+/*==================================================
+OUR PHILOSOPHY
+==================================================*/
+
+.hotel-philosophy{
+
+    max-width:1450px;
+
+    margin:180px auto;
+
+    padding:0 40px;
+
+    display:grid;
+
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+
+    gap:100px;
+
+    align-items:center;
+
+}
+
+.philosophy-image{
+
+    overflow:hidden;
+
+}
+
+.philosophy-image img{
+
+    width:100%;
+
+    height:720px;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+.philosophy-content{
+
+    max-width:650px;
+
+}
+
+.philosophy-content span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.philosophy-content h2{
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:35px;
+
+    color:#222;
+
+}
+
+.philosophy-content p{
+
+    font-size:1.05rem;
+
+    line-height:2;
+
+    color:#666;
+
+}
+
+
+
+
+/*==================================================
+HOTEL SPACES
+==================================================*/
+
+.hotel-spaces{
+
+    max-width:1500px;
+
+    margin:200px auto;
+
+    padding:0 40px;
+
+}
+
+
+/*========================================
+EACH SPACE
+========================================*/
+
+.space{
+
+    display:grid;
+
+    grid-template-columns:1.2fr 1fr;
+
+    gap:90px;
+
+    align-items:center;
+
+    margin-bottom:170px;
+
+}
+
+
+/* alterna imagen/texto */
+
+.space.reverse{
+
+    grid-template-columns:1.2fr 1fr;
+
+}
+
+.space.reverse .space-image{
+
+    order:2;
+
+}
+
+.space.reverse .space-content{
+
+    order:1;
+
+}
+
+
+/*========================================
+IMAGE
+========================================*/
+
+.space-image{
+
+    overflow:hidden;
+
+}
+
+.space-image img{
+
+    width:100%;
+
+    height:650px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.6s;
+
+}
+
+.space:hover .space-image img{
+
+    transform:scale(1.03);
+
+}
+
+
+/*========================================
+TEXT
+========================================*/
+
+.space-content{
+
+    max-width:520px;
+    width:100%;
+
+}
+
+.space-content span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.space-content h3{
+
+    font-size:3rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:30px;
+
+    color:#222;
+
+}
+
+.space-content p{
+
+    font-size:1.05rem;
+
+    line-height:2;
+
+    color:#666;
+
+}
+
+
+/*==================================================
+WHY MIDORI
+==================================================*/
+
+.why-midori{
+
+    max-width:1450px;
+
+    margin:200px auto;
+
+    padding:0 40px;
+
+    text-align:center;
+
+}
+
+
+/*===== HEADER =====*/
+
+.why-midori span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.why-midori h2{
+
+    font-size:3.6rem;
+
+    font-weight:300;
+
+    margin-bottom:80px;
+
+    line-height:1.15;
+
+}
+
+
+/*===== GRID =====*/
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}
+
+
+/*===== CARD =====*/
+
+.why-grid div{
+
+    padding:55px 35px;
+
+    background:#f7f4ee;
+
+    border:1px solid rgba(0,0,0,.06);
+
+    transition:.35s;
+
+    font-size:1.15rem;
+
+    font-weight:400;
+
+    color:#444;
+
+    line-height:1.8;
+
+}
+
+.why-grid div:hover{
+
+    transform:translateY(-8px);
+
+    background:#ece8dd;
+
+}
+
+/*==================================================
+GALLERY PREVIEW
+==================================================*/
+
+.gallery-preview{
+
+    max-width:1500px;
+
+    margin:200px auto;
+
+    padding:0 40px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1.4fr;
+
+    gap:90px;
+
+    align-items:center;
+
+}
+
+
+/*===== TEXT =====*/
+
+.gallery-text span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#777;
+
+}
+
+.gallery-text h2{
+
+    font-size:3.5rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:35px;
+
+    color:#222;
+
+}
+
+.gallery-text p{
+
+    font-size:1.05rem;
+
+    line-height:2;
+
+    color:#666;
+
+    margin-bottom:45px;
+
+}
+
+.gallery-text a{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    color:#222;
+
+    border-bottom:1px solid #222;
+
+    padding-bottom:5px;
+
+    letter-spacing:1px;
+
+    transition:.3s;
+
+}
+
+.gallery-text a:hover{
+
+    padding-left:8px;
+
+}
+
+
+/*===== IMAGES =====*/
+
+.gallery-images{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+    min-width:0;
+
+}
+
+.gallery-images img{
+
+    width:100%;
+
+    height:520px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.45s;
+
+}
+
+.gallery-images img:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+
+/*==================================================
+DISCOVER MORE
+==================================================*/
+
+.discover-more{
+
+    max-width:1500px;
+
+    margin:200px auto;
+
+    padding:0 40px;
+
+}
+
+
+/*===== TITLE =====*/
+
+.discover-more h2{
+
+    text-align:center;
+
+    font-size:3.4rem;
+
+    font-weight:300;
+
+    margin-bottom:80px;
+
+}
+
+
+/*===== GRID =====*/
+
+.discover-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+}
+
+
+/*===== CARD =====*/
+
+.discover-card{
+
+    display:block;
+
+    text-decoration:none;
+
+    color:inherit;
+
+    transition:.35s;
+
+}
+
+.discover-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+/*===== IMAGE =====*/
+
+.discover-card img{
+
+    width:100%;
+
+    height:340px;
+
+    object-fit:cover;
+
+    display:block;
+
+    margin-bottom:22px;
+
+    transition:.45s;
+
+}
+
+.discover-card:hover img{
+
+    transform:scale(1.03);
+
+}
+
+
+/*===== TEXT =====*/
+
+.discover-card h3{
+
+    font-size:2rem;
+
+    font-weight:300;
+
+    line-height:1.2;
+
+    margin-bottom:12px;
+
+}
+
+.discover-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    font-size:.95rem;
+
+}
+
+
+
+/*==================================================
+BOOK YOUR STAY
+==================================================*/
+
+.hotel-cta{
+
+    position:relative;
+
+    width:100%;
+
+    height:720px;
+
+    margin-top:220px;
+
+    overflow:hidden;
+
+}
+
+
+/*===== IMAGE =====*/
+
+.hotel-cta img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+/*===== OVERLAY =====*/
+
+.hotel-cta::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.30);
+
+}
+
+
+/*===== CONTENT =====*/
+
+.cta-content{
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    text-align:center;
+
+    color:#fff;
+
+    width:90%;
+
+    max-width:900px;
+
+    z-index:2;
+
+}
+
+.cta-content span{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:.85rem;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+.cta-content h2{
+
+    font-size:4.5rem;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    margin-bottom:40px;
+
+}
+
+.cta-content a{
+
+    display:inline-block;
+
+    padding:18px 42px;
+
+    border:1px solid #fff;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    transition:.35s;
+
+}
+
+.cta-content a:hover{
+
+    background:#fff;
+
+    color:#222;
+
+}
+
+
+
+/*==================================================
+RESPONSIVE
+==================================================*/
+
+/*========================================
+TABLET
+========================================*/
+@media (max-width:1024px){
+
+    /* HERO */
+
+    .hotel-hero .hero-content{
+
+        left:8%;
+        right:8%;
+        max-width:100%;
+
+    }
+
+    .hotel-hero h1{
+
+        font-size:4rem;
+
+    }
+
+    .hotel-hero p{
+
+        max-width:100%;
+
+    }
+
+
+    /* SECTIONS */
+
+    .hotel-intro,
+    .hotel-philosophy,
+    .hotel-spaces,
+    .why-midori,
+    .gallery-preview,
+    .discover-more{
+
+        margin:140px auto;
+        padding:0 30px;
+
+    }
+
+
+    /* INTRO */
+
+    .hotel-intro{
+
+        grid-template-columns:1fr;
+        gap:60px;
+
+    }
+
+
+    /* PHILOSOPHY */
+
+    .hotel-philosophy{
+
+        grid-template-columns:1fr;
+        gap:60px;
+
+    }
+
+
+    /* SPACES */
+
+    .space,
+    .space.reverse{
+
+        grid-template-columns:1fr;
+        gap:50px;
+
+    }
+
+    .space.reverse .space-image,
+    .space.reverse .space-content{
+
+        order:initial;
+
+    }
+
+    .space-content{
+
+        max-width:100%;
+        width:100%;
+
+    }
+
+
+    /* WHY */
+
+    .why-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+    /* GALLERY */
+
+    .gallery-preview{
+
+        grid-template-columns:1fr;
+        gap:60px;
+
+    }
+
+    .gallery-images{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+
+    /* DISCOVER */
+
+    .discover-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+/*========================================
+MOBILE
+========================================*/
+@media (max-width:768px){
+
+    /* HERO */
+
+    .hotel-hero{
+
+        min-height:680px;
+
+    }
+
+    .hotel-hero .hero-content{
+
+        left:30px;
+        right:30px;
+        bottom:80px;
+
+    }
+
+    .hotel-hero h1{
+
+        font-size:3rem;
+
+    }
+
+    .hotel-hero p{
+
+        font-size:1rem;
+
+    }
+
+
+    /* GENERAL */
+
+    .hotel-intro,
+    .hotel-philosophy,
+    .hotel-spaces,
+    .why-midori,
+    .gallery-preview,
+    .discover-more{
+
+        margin:100px auto;
+        padding:0 24px;
+
+    }
+
+
+    /* TITLES */
+
+    .intro-text h2,
+    .philosophy-content h2,
+    .gallery-text h2,
+    .why-midori h2,
+    .discover-more h2{
+
+        font-size:2.6rem;
+
+    }
+
+    .space-content h3{
+
+        font-size:2.4rem;
+
+    }
+
+
+    /* IMAGES */
+
+    .intro-image img,
+    .philosophy-image img,
+    .space-image img{
+
+        height:460px;
+
+    }
+
+
+    /* WHY */
+
+    .why-grid{
+
+        grid-template-columns:1fr;
+        gap:22px;
+
+    }
+
+
+    /* GALLERY */
+
+    .gallery-images{
+
+        grid-template-columns:1fr;
+        gap:20px;
+
+    }
+
+    .gallery-images img{
+
+        height:420px;
+
+    }
+
+
+    /* DISCOVER */
+
+    .discover-grid{
+
+        grid-template-columns:1fr;
+        gap:30px;
+
+    }
+
+    .discover-card img{
+
+        height:300px;
+
+    }
+
+
+    /* CTA */
+
+    .hotel-cta{
+
+        height:560px;
+
+    }
+
+    .cta-content h2{
+
+        font-size:2.8rem;
+
+    }
+
+}
+
+
+/*========================================
+SMALL MOBILE
+========================================*/
+@media (max-width:480px){
+
+    .hotel-hero{
+
+        min-height:620px;
+
+    }
+
+    .hotel-hero .hero-content{
+
+        left:20px;
+        right:20px;
+        bottom:60px;
+
+    }
+
+    .hotel-hero h1{
+
+        font-size:2.4rem;
+
+    }
+
+    .hotel-hero p{
+
+        line-height:1.8;
+
+    }
+
+
+    .hotel-intro,
+    .hotel-philosophy,
+    .hotel-spaces,
+    .why-midori,
+    .gallery-preview,
+    .discover-more{
+
+        padding:0 18px;
+
+    }
+
+
+    .intro-text h2,
+    .philosophy-content h2,
+    .gallery-text h2,
+    .why-midori h2,
+    .discover-more h2{
+
+        font-size:2.1rem;
+
+    }
+
+    .space-content h3{
+
+        font-size:2rem;
+
+    }
+
+
+    .intro-image img,
+    .philosophy-image img,
+    .space-image img,
+    .gallery-images img{
+
+        height:340px;
+
+    }
+
+
+    .cta-content h2{
+
+        font-size:2.2rem;
+
+    }
+
+}

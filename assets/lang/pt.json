@@ -1,0 +1,844 @@
+{
+    "language": "pt",
+
+    "nav":{
+
+        "hotel":"O HOTEL",
+        "gallery":"GALERIA",
+        "rooms":"QUARTOS",
+        "dining":"GASTRONOMIA",
+        "jacuzzi":"JACUZZI",
+        "experiences":"EXPERIÊNCIAS",
+        "contact":"CONTATO",
+        "TALK_TO":"FALAR COM O CONCIERGE"
+
+    },
+
+    "hamburger":{
+
+        "index":"INÍCIO",
+        "hotel":"O HOTEL",
+        "gallery":"GALERIA",
+        "rooms":"QUARTOS",
+        "dining":"GASTRONOMIA",
+        "jacuzzi":"JACUZZI",
+        "experiences":"EXPERIÊNCIAS",
+        "contact":"CONTATO",
+        "bookNow":"RESERVE AGORA"
+
+    },
+
+    "hero":{
+
+        "index":{
+
+            "span":"HOTEL MIDORI",
+            "h1":"Viva Cusco a partir do Coração do Centro Histórico",
+            "btn":"DESCOBRIR"
+
+        },
+
+        "theHotel":{
+
+            "span":"HOTEL MIDORI",
+            "h1":"Conforto Histórico no Coração de Cusco",
+            "p":"Desfrute de uma hospitalidade personalizada, espaços elegantes e do acolhimento que define o Hotel Midori.",
+            "btn":"SAIBA MAIS"
+
+        },
+
+        "termsConditions":{
+
+            "span":"HOTEL MIDORI",
+            "h1":"Termos e Condições",
+            "p":"Regras e diretrizes para o uso do nosso site e serviços.",
+            "btn":"POLÍTICA DE PRIVACIDADE"
+
+        },
+
+        "rooms":{
+
+            "span":"QUARTOS",
+            "h1":"Quartos Confortáveis no Coração de Cusco",
+            "p":"Projetados para o descanso, conforto e uma estadia memorável.",
+            "btn":"MAIS INFORMAÇÕES"
+
+        },
+
+        "privacyPolicy":{
+
+            "span":"HOTEL MIDORI",
+            "h1":"Política de Privacidade",
+            "p":"Saiba como coletamos, usamos e protegemos suas informações pessoais.",
+            "btn":"Política de Privacidade"
+            
+        },
+
+        "jacuzzi":{
+
+            "span":"JACUZZI PRIVADO",
+            "h1":"Um Espaço Privativo para Relaxar",
+            "p":"Desfrute de uma experiência exclusiva de jacuzzi em uma sala privativa, projetada para o conforto, tranquilidade e relaxamento completo.",
+            "btn":"Mais informações"
+            
+        },
+
+        "gallery":{
+
+            "span":"GALERIA",
+            "h1":"Descubra o Hotel Midori",
+            "p":"Uma viagem visual pelo nosso hotel, seus espaços e a experiência que espera por você no centro histórico de Cusco.",
+            "btn":"EXPLORAR GALERIA"
+            
+        },
+
+        "experience":{
+
+            "span":"EXPERIÊNCIAS",
+            "h1":"Descubra a Magia de Cusco",
+            "p":"Explore a história, cultura e paisagens deslumbrantes da cidade enquanto aproveita sua estadia no Hotel Midori.",
+            "btn":"DESCOBRIR CUSCO"
+            
+        },
+
+        "dining":{
+
+            "span":"GASTRONOMIA",
+            "h1":"Comece Cada Manhã com Sabores Locais",
+            "p":"Desfrute de um delicioso café da manhã buffet preparado com ingredientes frescos em um ambiente caloroso e relaxante.",
+            "btn":"Mais informações"
+            
+        },
+
+        "contact":{
+
+            "span":"CONTATO",
+            "h1":"Estamos Ansiosos para Recebê-lo",
+            "p":"Se você tiver dúvidas sobre sua estadia, reservas ou serviços, nossa equipe está pronta para ajudar.",
+            "btn":"Localização"
+            
+        }
+
+    },
+
+    "location":{
+
+        "middle":{
+
+            "title":"Mergulhe no Conforto",
+            "description":"Localizado no coração de Cusco, o Hotel Midori combina conforto, conveniência e um toque de luxo para criar uma experiência inesquecível."
+
+        },
+
+        "right":{
+
+            "location":"Localização",
+            "title":"Centro Histórico de Cusco",
+            "description":"A poucos passos da Plaza de Armas.",
+            "theHotel":"O HOTEL",
+            "theHotelTitle":"Conforto Histórico",
+            "theHotelDescription":"Descubra o Hotel Midori.",
+            "dining":"GASTRONOMIA",
+            "breakfast":"Café da Manhã",
+            "diningDescription":"Sabores locais todas as manhãs.",
+            "jacuzzi":"JACUZZI",
+            "jacuzziTitle":"Relaxamento Privativo",
+            "jacuzziDescription":"Desfrute de uma jacuzzi privativa.",
+            "experiences":"EXPERIÊNCIAS",
+            "experiencesTitle":"Explore Cusco",
+            "experiencesDescription":"Descubra a cidade."
+
+        }
+
+    },
+
+    "about":{
+
+        "span":"EXPERIÊNCIAS INESQUECÍVEIS",
+        "h2":"Descubra a Magia de Cusco",
+        "p":"Mergulhe no coração do Império Inca. Nosso hotel é a porta de entrada perfeita para caminhar por ruas de pedra vibrantes, explorar maravilhas arqueológicas místicas e se conectar com as paisagens deslumbrantes que estão logo ali, fora da sua porta.",
+        "a":"SAIBA MAIS"
+
+    },
+
+    "index":{
+
+        "discover": {
+            "menu_header": "O QUE ESTÁ ACONTECENDO",
+            "menu_title": "Ao Redor do Hotel Midori",
+            "showcaseData": [
+                {
+                    "menu": "DESCOBRIR CUSCO",
+                    "tag": "DESCOBRIR",
+                    "title": "Explore o Centro Histórico de Cusco",
+                    "description": "Localizado a apenas alguns passos da Plaza de Armas, o Hotel Midori é o ponto de partida ideal para descobrir museus, ruas coloniais, mercados de artesanato e a cultura viva de Cusco.",
+                    "button": "Explore mais"
+                },
+                {
+                    "menu": "CAFÉ DA MANHÃ",
+                    "tag": "GASTRONOMIA",
+                    "title": "Café da Manhã & Restaurante",
+                    "description": "Comece o seu dia com o nosso café da manhã buffet com ingredientes locais frescos, acompanhado por uma atmosfera calorosa e elegante no coração de Cusco.",
+                    "button": "SAIBA MAIS"
+                }
+            ]
+        }
+        
+    },
+
+    "featureCard":{
+
+        "span":"PASSEIOS",
+        "cityTourTitle":"City Tour Cusco",
+        "cityTourDescription":"Explore antigos templos incas, praças coloniais e a vibrante cultura local a poucos passos do nosso hotel.",
+        "machuPicchuTitle":"Machu Picchu",
+        "machuPicchuDescription":"Viaje até a lendária cidade perdida dos Incas e contemple uma das maravilhas do mundo.",
+        "rainbowMountainTitle":"Montanha de Cores",
+        "rainbowMountainDescription":"Caminhe por paisagens andinas impressionantes para descobrir as cores deslumbrantes da montanha Vinicunca.",
+        "link":"PLANEJE SEU PASSEIO CONOSCO"
+
+    },
+
+    "accommodation":{
+
+        "span":"ACOMODAÇÃO",
+        "h2":"24 Quartos Confortáveis no Coração de Cusco",
+        "p":"O Hotel Midori oferece vinte e quatro quartos totalmente equipados, projetados para o conforto, privacidade e relaxamento, a apenas alguns passos do centro histórico de Cusco.",
+        "btn":"VER QUARTOS"
+
+    },
+
+    "footer":{
+
+        "location":"Conforto Histórico no Coração de Cusco 🌎",
+        "Hotel":"O HOTEL",
+        "theHotel":"O Hotel",
+        "rooms":"Quartos",
+        "dining":"Gastronomia",
+        "gallery":"Galeria",
+        "contact":"Contato",
+        "experiences":"Experiências",
+        "jacuzzi":"Jacuzzi",
+        "explore":"Explorar",
+        "follow":"Siga-nos",
+        "rights":"© 2026 Hotel Midori. Todos os direitos reservados.",
+        "privacyPolicy":"Política de Privacidade",
+        "termsConditions":"Termos e Condições"
+
+    },
+
+    "wsp":{
+
+        "welcomeMessage":"Olá! 👋 Obrigado por visitar o Hotel Midori. Como nossos especialistas em viagens podem ajudar você hoje?",
+        "startChat":"Iniciar Conversa",
+        "teamReplies":"Nossa equipe costuma responder em minutos"
+
+    },
+
+    "PAGE THE HOTEL ": "-----------------------------",
+    "theHotel":{
+
+        "introduction":{
+
+        "span":"O HOTEL",
+        "h2":"Descubra o Hotel Midori",
+        "p":"Situado a apenas alguns passos da histórica Plaza de Armas de Cusco, o Hotel Midori combina conforto, tranquilidade e serviço personalizado, criando uma estadia inesquecível para cada hóspede."
+
+        },
+
+        "philosophy":{
+
+            "span":"NOSSA FILOSOFIA",
+            "h2":"Hospitalidade com Calor Autêntico",
+            "p":"Cada detalhe no Hotel Midori é projetado para oferecer conforto, serviço atencioso e uma atmosfera onde os hóspedes se sintam bem-vindos desde o momento em que chegam."
+
+        },
+
+        "lobby":{
+
+            "span":"LOBBY",
+            "h3":"Boas-vindas Elegante",
+            "p":"Uma recepção confortável e acolhedora onde cada estadia começa."
+
+        },
+
+        "breakfast":{
+
+            "span":"CAFÉ DA MANHÃ",
+            "h3":"Fresco Todas as Manhãs",
+            "p":"Comece o seu dia com um café da manhã buffet composto por ingredientes locais frescos."
+
+        },
+
+        "jacuzzi":{
+
+            "span":"JACUZZI PRIVADO",
+            "h3":"Relaxe com Privacidade",
+            "p":"Desfrute de uma atmosfera pacífica projetada para o relaxamento completo."
+
+        },
+
+        "common":{
+
+            "span":"ÁREAS COMUNS",
+            "h3":"Espaços Tranquilos",
+            "p":"Espaços confortáveis projetados para relaxar ao longo de toda a sua estadia."
+
+        },
+
+        "whyStay":{
+
+            "span":"POR QUE O MIDORI",
+            "h2":"Por que Ficar Conosco",
+            "A":"24 Quartos Confortáveis",
+            "B":"Localização no Centro Histórico",
+            "C":"Café da Manhã Buffet",
+            "D":"Jacuzzi Privativo",
+            "E":"Serviço Personalizado",
+            "F":"Conforto & Tranquilidade"
+
+        },
+
+        "previewGallery":{
+
+            "span":"GALERIA",
+            "h2":"Descubra Cada Canto",
+            "p":"Explore o Hotel Midori através de uma coleção selecionada de imagens.",
+            "a":"EXPLORAR GALERIA"
+
+        },
+
+        "discoverMore":{
+
+            "h2":"Continue Explorando",
+            "h3Rooms":"Quartos",
+            "h3Dining":"Gastronomia",
+            "h3Jacuzzi":"Jacuzzi",
+            "h3Experiences":"Experiências"
+
+        },
+
+        "cta":{
+
+            "span":"HOTEL MIDORI",
+            "h2":"Viva o Conforto Histórico",
+            "btn":"RESERVE SUA ESTADIA"
+
+        }
+
+    },
+
+    "PAGE termsConditions ": "-----------------------------",
+    "termsConditions":{
+
+        "Requests":{
+
+            "h2":"Solicitações de Reserva",
+            "p":"Todas as reservas devem ser enviadas por escrito via e-mail ou outros canais oficiais de comunicação. As solicitações de reserva devem incluir o nome completo do hóspede, datas de chegada e partida, tipo de quarto e se a reserva se qualifica como exportação de serviços. A reserva também deve identificar a pessoa responsável pelo pagamento."
+
+        },
+
+        "individual":{
+
+            "h2":"Reservas Individuais",
+            "p1":"As reservas individuais se aplicam a reservas de um a seis hóspedes.",
+            "p2":"As reservas devem ser reconfirmadas pelo menos dez (10) dias antes da chegada. O pagamento deve ser concluído sete (7) dias antes do check-in.",
+            "p3":"As reservas feitas dentro de quinze (15) dias antes da chegada devem ser reconfirmadas pelo menos sete (7) dias antes do check-in e pagas quatro (4) dias antes da chegada."
+
+        },
+
+        "group":{
+
+            "h2":"Reservas de Grupo",
+            "p1":"As reservas de grupo se aplicam a reservas de sete (7) hóspedes ou mais.",
+            "p2":"As reservas feitas com dois meses ou mais de antecedência podem ser modificadas, reconfirmadas ou canceladas até quarenta (40) dias antes da chegada do grupo.",
+            "p3":"É necessário um depósito de cinquenta por cento (50%) do valor da reserva. O saldo restante deve ser pago pelo menos cinco (5) dias antes da chegada."
+
+        },
+
+        "children":{
+
+            "h2":"Política para Crianças",
+            "p1":"Crianças menores de sete (7) anos não pagam quando compartilham o quarto com os pais.",
+            "p2":"Berços de cortesia estão disponíveis para crianças de 0 a 4 anos, sujeitos à disponibilidade.",
+            "p3":"Crianças com sete (7) anos ou mais são consideradas adultas para fins de acomodação.",
+            "p4":"É permitido no máximo uma criança por quarto."
+
+        },
+
+        "cancellation":{
+
+            "h2":"Política de Cancelamento e No-Show",
+            "p1":"Reservas de grupo podem ser canceladas sem multa até quarenta (40) dias antes da chegada.",
+            "p2":"Reservas individuais podem ser canceladas sem multa até sete (7) dias antes da chegada.",
+            "p3":"Cancelamentos recebidos após esses prazos ou o não comparecimento sem aviso prévio (No Show) incorrerão na cobrança equivalente à primeira noite de estadia."
+
+        },
+
+        "taxes":{
+
+            "h2":"Impostos",
+            "p1":"Os impostos aplicáveis serão cobrados de acordo com a legislação peruana. Visitantes estrangeiros podem se qualificar para isenção de impostos mediante apresentação de passaporte válido e documentação de imigração."
+
+        },
+
+        "creditTerms":{
+
+            "h2":"Termos de Crédito",
+            "p1":"Contas de crédito aprovadas têm um prazo de pagamento de quinze (15) dias a partir da data da fatura."
+
+        },
+
+        "complimentary":{
+
+            "h2":"Política de Cortesia",
+            "p1":"Para reservas de grupo, cada décimo sexto hóspede é considerado cortesia de acordo com a política de grupo atual do Hotel Midori."
+
+        },
+
+        "contact":{
+
+            "h2":"Informações de Contato",
+            "p1":"Para informações adicionais sobre estes Termos e Condições ou políticas de reserva, entre em contato diretamente com o Hotel Midori."
+
+        }
+
+    },
+
+    "PAGE ROOMS ": "-----------------------------",
+    "rooms":{
+
+        "introduction":{
+
+            "span":"ACOMODAÇÃO",
+            "h2":"Fique com Conforto",
+            "p":"Nossos 24 quartos totalmente equipados combinam elegância, calor e serviço personalizado, oferecendo tudo o que é necessário para uma estadia relaxante."
+
+        },
+
+        "header": {
+            "span": "ACOMODAÇÃO",
+            "h2": "Escolha Sua Estadia Perfeita",
+            "p": "Desde confortáveis quartos padrão até a nossa elegante suíte, cada espaço é projetado para proporcionar uma estadia relaxante no coração de Cusco."
+        },
+        "button_text": "VERIFICAR DISPONIBILIDADE",
+        "whatsapp_template": "Olá! Gostaria de verificar a disponibilidade para o ",
+        "roomList": [
+            {
+                "category": "PADRÃO",
+                "title": "Quarto Individual Padrão",
+                "description": "Quarto confortável projetado para viajantes individuais, oferecendo uma atmosfera tranquila e tudo o necessário para uma estadia agradável em Cusco.",
+                "image": "../assets/img/rooms/room-standard-single.webp"
+            },
+            {
+                "category": "SUPERIOR",
+                "title": "Quarto Duplo Superior com Duas Camas",
+                "description": "Quarto espaçoso com duas camas de solteiro confortáveis, perfeito para amigos ou familiares que viajam juntos.",
+                "image": "../assets/img/rooms/room-superior-twin.webp"
+            },
+            {
+                "category": "PADRÃO",
+                "title": "Quarto Duplo Padrão com Duas Camas",
+                "description": "Um quarto prático com duas camas de solteiro, ideal para viajantes que buscam conforto e economia.",
+                "image": "../assets/img/rooms/room-standard-twin.webp"
+            },
+            {
+                "category": "SUPERIOR",
+                "title": "Quarto de Casal Superior",
+                "description": "Quarto elegante com uma cama queen-size e decoração refinada, projetado para casais que buscam conforto e relaxamento.",
+                "image": "../assets/img/rooms/room-superior-double.webp"
+            },
+            {
+                "category": "PADRÃO",
+                "title": "Quarto de Casal Padrão",
+                "description": "Quarto de casal aconchegante com uma confortável cama queen e todos os itens essenciais para uma estadia relaxante.",
+                "image": "../assets/img/rooms/room-standard-double.webp"
+            },
+            {
+                "category": "SUPERIOR",
+                "title": "Quarto Triplo Superior",
+                "description": "Acomodação ampla com três camas confortáveis, perfeita para famílias ou pequenos grupos que exploram Cusco.",
+                "image": "../assets/img/rooms/room-superior-triple.webp"
+            },
+            {
+                "category": "PADRÃO",
+                "title": "Quarto Triplo Padrão",
+                "description": "Quarto triplo funcional que oferece conforto e conveniência para famílias ou amigos que viajam juntos.",
+                "image": "../assets/img/rooms/room-standard-triple.webp"
+            },
+            {
+                "category": "SUÍTE",
+                "title": "Suíte",
+                "description": "Nossa acomodação mais exclusiva, com amplos espaços, mobiliário elegante e máximo conforto para uma estadia inesquecível.",
+                "image": "../assets/img/rooms/room-suite.webp"
+            }
+        ],
+
+        "amenities":{
+
+            "span":"COMODIDADES DO QUARTO",
+            "h2":"Tudo o que Você Precisa para uma Estadia Confortável",
+            "p":"Cada quarto é cuidadosamente equipado com confortos modernos para garantir uma experiência relaxante durante sua estadia no Hotel Midori.",
+            "card1":{
+                "h3":"Wi-Fi Gratuito",
+                "p":"Internet sem fio de alta velocidade durante toda a sua estadia."
+            },
+            "card2":{
+                "h3":"Smart TV",
+                "p":"Entretenimento com canais a cabo."
+            },
+            "card3":{
+                "h3":"Banheiro Privativo",
+                "p":"Banheiro moderno com produtos de higiene cortesia."
+            },
+            "card4":{
+                "h3":"Água Quente",
+                "p":"Água quente disponível 24 horas por dia."
+            },
+            "card5":{
+                "h3":"Cofre",
+                "p":"Armazenamento seguro para seus pertences de valor."
+            },
+            "card6":{
+                "h3":"Secador de Cabelo",
+                "p":"Disponível em todos os quartos."
+            },
+            "card7":{
+                "h3":"Aquecimento",
+                "p":"Temperatura agradável durante as noites mais frias."
+            },
+            "card8":{
+                "h3":"Limpeza Diária",
+                "p":"Quartos frescos e limpos todos os dias."
+            }
+
+        },
+
+        "services":{
+
+            "span":"SERVIÇOS DO HOTEL",
+            "h2":"Serviços Personalizados Durante Toda a Sua Estadia",
+            "p":"Do momento da sua chegada até a partida, nossa equipe se dedica a tornar sua estadia em Cusco confortável e memorável.",
+            "card1":{ "h3":"Café da Manhã Buffet" },
+            "card2":{ "h3":"Recepção 24 Horas" },
+            "card3":{ "h3":"Trânsfer do Aeroporto" },
+            "card4":{ "h3":"Assistência com Passeios" },
+            "card5":{ "h3":"Depósito de Bagagem" },
+            "card6":{ "h3":"Serviço de Lavanderia" },
+            "card7":{ "h3":"Jacuzzi Privado" },
+            "card8":{ "h3":"Serviço de Concierge" }
+
+        },
+
+        "cta":{
+
+            "span":"HOTEL MIDORI",
+            "h2":"Pronto para Sua Estadia em Cusco?",
+            "p":"Desfrute de acomodações confortáveis, hospitalidade personalizada e uma estadia inesquecível no coração da Cidade Imperial.",
+            "btn":"VERIFICAR DISPONIBILIDADE"
+
+        }
+
+    },
+
+    "PAGE Privacy Policy ": "-----------------------------",
+    "privacyPolicy":{
+
+        "header":{
+
+            "span":"HOTEL MIDORI",
+            "h1":"Política de Privacidade",
+            "p":"Saiba como o Hotel Midori coleta, usa e protege suas informações pessoais ao visitar nosso site ou utilizar nossos serviços."
+
+        },
+
+        "introduction":{
+            "h2":"Introdução",
+            "p":"O Hotel Midori está comprometido em proteger a privacidade dos nossos hóspedes e visitantes do site. Esta Política de Privacidade explica como coletamos, usamos e protegemos suas informações pessoais."
+        },
+        "collection":{
+            "h2":"Informações que Coletamos",
+            "p":"Podemos coletar informações pessoais como seu nome, endereço de e-mail, número de telefone e detalhes da reserva quando você entra em contato conosco ou solicita nossos serviços."
+        },
+        "usage":{
+            "h2":"Como Usamos Suas Informações",
+            "p":"Suas informações são usadas para gerenciar reservas, responder a dúvidas, melhorar nossos serviços e fornecer assistência antes, durante e após a sua estadia."
+        },
+        "thirdParty":{
+            "h2":"Serviços de Terceiros",
+            "p":"Nosso site pode incluir serviços como Google Maps e WhatsApp. Essas plataformas possuem suas próprias políticas de privacidade e podem coletar informações de acordo com seus respectivos termos."
+        },
+        "cookies":{
+            "h2":"Cookies",
+            "p":"Nosso site pode usar cookies para melhorar o desempenho de navegação e aprimorar sua experiência. Você pode desativar os cookies através das configurações do seu navegador."
+        },
+        "contact":{
+            "h2":"Contate-nos",
+            "p":"Se tiver alguma dúvida sobre esta Política de Privacidade ou sobre o manuseio de suas informações pessoais, entre em contato diretamente com o Hotel Midori."
+        }
+
+    },
+
+    "PAGE JACUZZI ": "-----------------------------",
+    "jacuzzi":{
+
+        "introduction":{
+
+            "span":"BEM-ESTAR",
+            "h2":"Relaxe em Total Privacidade",
+            "p":"Nossa sala de jacuzzi privativa oferece um ambiente tranquilo onde casais ou hóspedes individuais podem relaxar após um dia explorando Cusco.",
+            "btn":"RESERVE SUA EXPERIÊNCIA"
+
+        },
+
+        "features":{
+
+            "span":"EXPERIÊNCIA",
+            "h2":"Projetado para o Seu Conforto",
+            "item1":{
+                "h3":"Sala Privativa",
+                "p":"Desfrute de total privacidade durante todo o período da sua reserva."
+            },
+            "item2":{
+                "h3":"Capacidade",
+                "p":"Perfeito para um ou dois hóspedes."
+            },
+            "item3":{
+                "h3":"Reserva",
+                "p":"Disponível de acordo com os horários de agendamento."
+            }
+
+        },
+
+        "gallery":{
+
+            "span":"GALERIA",
+            "h2":"Descubra a Experiência",
+            "p":"Explore nossa jacuzzi privativa através de uma seleção de fotografias."
+
+        },
+
+        "cta":{
+
+            "span":"HOTEL MIDORI",
+            "h2":"Complete Sua Estadia com uma Experiência Relaxante",
+            "btn":"RESERVE SUA ESTADIA"
+
+        }
+
+    },
+
+    "PAGE GALLERY ": "-----------------------------",
+    "gallery":{
+
+        "introduction":{
+
+            "span":"GALERIA",
+            "h2":"Cada Canto Conta uma História",
+            "p":"Explore nossos interiores elegantes, espaços acolhedores e momentos memoráveis através de uma coleção selecionada de imagens."
+
+        },
+
+        "feature":{
+
+            "span":"DESTAQUE",
+            "h2":"Elegância Histórica",
+            "p":"Cada espaço foi projetado para combinar conforto, elegância e a atmosfera acolhedora do Hotel Midori."
+
+        },
+
+        "discover":{
+
+            "h2":"Continue Exploring",
+            "card1":{
+                "h3":"O Hotel",
+                "p":"Descubra nossa história e filosofia."
+            },
+            "card2":{
+                "h3":"Jacuzzi",
+                "p":"Uma visão da Jacuzzi no Midori."
+            },
+            "card3":{
+                "h3":"Quartos",
+                "p":"Conforto no coração de Cusco."
+            },
+            "card4":{
+                "h3":"Experiências",
+                "p":"Explore a magia dos Andes."
+            }
+
+        },
+
+        "cta":{
+
+            "span":"HOTEL MIDORI",
+            "h2":"Viva Cada Detalhe",
+            "btn":"RESERVE SUA ESTADIA"
+
+        }
+
+    },
+
+    "PAGE EXPERIENCE ": "-----------------------------",
+    "experience":{
+
+        "introduction":{
+
+            "span":"DESCOBRIR",
+            "h2":"Experiências Além da Sua Estadia",
+            "p":"Graças à nossa localização privilegiada no centro histórico, muitas das atrações mais icônicas de Cusco estão a apenas alguns minutos de distância, e todas são fáceis de explorar com nossa orientação especializada."
+
+        },
+
+        "featured":{
+            "item1":{
+                "span":"CENTRO HISTÓRICO",
+                "h3":"Plaza de Armas",
+                "p":"Descubra o coração de Cusco a apenas uma curta caminhada do hotel."
+            },
+            "item2":{
+                "span":"ARQUEOLOGIA",
+                "h3":"Sacsayhuamán",
+                "p":"Visite um dos sítios arqueológicos incas mais impressionantes."
+            },
+            "item3":{
+                "span":"CULTURA LOCAL",
+                "h3":"Mercado de San Pedro",
+                "p":"Saboreie a culinária local e descubra produtos artesanais autênticos."
+            },
+            "item4":{
+                "span":"PASSEIO DO DIA",
+                "h3":"Machu Picchu",
+                "p":"Comece uma das viagens mais inesquecíveis do mundo a partir de Cusco."
+            },
+            "item5":{
+                "span":"FENÔMENO GEOLÓGICO",
+                "h3":"Montanha de Cores",
+                "p":"Descubra uma das maravilhas geológicas mais impressionantes do mundo diretamente de Cusco."
+            }
+        },
+
+        "more":{
+
+            "span":"MAIS PARA DESCOBRIR",
+            "h2":"Continue Explorando",
+            "item1":"Montanha de Cores",
+            "item2":"Vale Sagrado",
+            "item3":"Moray",
+            "item4":"Salinas de Maras",
+            "item5":"Qorikancha",
+            "item6":"Museus de Cusco"
+
+        },
+
+        "cta":{
+
+            "span":"HOTEL MIDORI",
+            "h2":"Sua Aventura Começa Aqui",
+            "btn":"RESERVE SUA ESTADIA"
+
+        }
+
+    },
+
+    "PAGE DINING ": "-----------------------------",
+    "dining":{
+
+        "breakfast":{
+
+            "span":"CAFÉ DA MANHÃ",
+            "h2":"Um Começo Fresco Todas as Manhãs",
+            "p":"Comece o seu dia com um café da manhã buffet com frutas frescas, pães, bebidas quentes e uma seleção de especialidades locais servidas em um ambiente confortável.",
+            "btn":"RESERVE SUA ESTADIA"
+
+        },
+
+        "gallery":{
+
+            "span":"GALERIA",
+            "h2":"Momentos do Café da Manhã",
+            "p":"Descubra a atmosfera da nossa área de refeições através de uma seleção de fotografias."
+
+        },
+
+        "cta":{
+
+            "span":"HOTEL MIDORI",
+            "h2":"Aproveite Cada Manhã Conosco",
+            "btn":"RESERVE SUA ESTADIA"
+
+        }
+
+    },
+
+    "PAGE CONTACT ": "-----------------------------",
+    "contact":{
+
+        "info":{
+
+            "span":"HOTEL MIDORI",
+            "h2":"Informações de Contato",
+            "address":{
+                "h3":"Endereço",
+                "p":"Calle Ataud 204 Centro Histórico Cusco, Peru"
+            },
+            "phone":{
+                "h3":"Telefone"
+            },
+            "email":{
+                "h3":"E-mail",
+                "gmail":"Abrir no Gmail",
+                "outlook":"Abrir no Outlook"
+            }
+
+        },
+
+        "options":{
+
+            "span":"ENTRE EM CONTATO",
+            "h2":"Como Podemos Ajudar?",
+            "card1":{
+                "h3":"Reservas",
+                "p":"Contate-nos diretamente para verificar a disponibilidade de quartos e reservas."
+            },
+            "card2":{
+                "h3":"WhatsApp",
+                "p":"Receba assistência imediata da nossa equipe."
+            },
+            "card3":{
+                "h3":"E-mail",
+                "p":"Envie-nos suas dúvidas e responderemos em breve."
+            }
+
+        },
+
+        "faq":{
+
+            "span":"PERGUNTAS FREQUENTES",
+            "h2":"Perguntas Frequentes",
+            "q1":{
+                "summary":"A que horas é o check-in?",
+                "p":"O check-in começa no período da tarde."
+            },
+            "q2":{
+                "summary":"O café da manhã está incluso?",
+                "p":"Sim, o café da manhã buffet está incluso."
+            },
+            "q3":{
+                "summary":"O hotel oferece transporte para o aeroporto?",
+                "p":"O transporte pode ser providenciado mediante solicitação."
+            }
+
+        },
+
+        "cta":{
+
+            "span":"HOTEL MIDORI",
+            "h2":"Comece Sua Jornada em Cusco",
+            "btn":"RESERVE SUA ESTADIA"
+
+        }
+
+    }
+
+}
