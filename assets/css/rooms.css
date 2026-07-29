@@ -1476,3 +1476,116 @@ RESPONSIVE
     }
 
 }
+
+/*==================================================
+CORRECCIÓN RESPONSIVE MOBILE (.room-types)
+==================================================*/
+
+/* 1. Ajustes para tablets y pantallas medianas (< 992px) */
+@media (max-width: 992px) {
+
+    /* Quita los desplazamientos y desbordamientos que sacan la imagen de pantalla */
+    .room-image {
+        transform: none !important;
+        margin: 0 auto 30px auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .room-info {
+        margin-right: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    }
+
+    /* Anula el hover que agranda y desplaza la imagen en móviles */
+    .room-image:hover img {
+        transform: none !important;
+        box-shadow: none !important;
+    }
+}
+
+/* 2. Ajustes para teléfonos móviles (< 768px) */
+@media (max-width: 768px) {
+
+    .room-types {
+        padding: 60px 5% !important;
+    }
+
+    .room-types .section-header {
+        margin-bottom: 40px !important;
+    }
+
+    .room-card {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        width: 100%;
+    }
+
+    .room-image {
+        order: 1;
+        max-height: 280px;
+        overflow: hidden;
+    }
+
+    .room-image img {
+        height: 280px !important;
+        object-fit: cover;
+    }
+
+    .room-info {
+        order: 2;
+        padding: 30px 20px !important;
+        box-sizing: border-box;
+    }
+
+    .room-navigation {
+        margin-top: 35px !important;
+    }
+}
+/*==================================================
+AJUSTE DE ORDEN EN MÓVIL (< 768px)
+==================================================*/
+@media (max-width: 768px) {
+
+    .room-card {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* 1. La tarjeta de información queda PRIMERO (arriba) */
+    .room-info {
+        order: 1 !important;
+        width: 100% !important;
+        margin: 0 0 25px 0 !important;
+        padding: 30px 20px !important;
+        box-sizing: border-box;
+    }
+
+    /* 2. La imagen queda EN EL MEDIO */
+    .room-image {
+        order: 2 !important;
+        width: 100% !important;
+        max-height: 280px;
+        transform: none !important;
+        margin: 0 0 25px 0 !important;
+        overflow: hidden;
+    }
+
+    .room-image img {
+        height: 280px !important;
+        width: 100% !important;
+        object-fit: cover;
+    }
+
+    /* 3. Las flechas y rombos quedan ABAJO de todo */
+    .room-navigation {
+        order: 3 !important;
+        margin-top: 10px !important;
+    }
+}
